@@ -1,0 +1,7 @@
+name: DuckBackpackView
+version: '${version}'
+main: com.duckfox.duckbackpackview.DuckBackpackView
+depend:
+  - DuckAPI
+  - XinxinBotApi
+authors: [Duck_fox]
