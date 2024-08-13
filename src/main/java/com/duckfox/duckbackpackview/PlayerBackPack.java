@@ -1,22 +1,15 @@
 package com.duckfox.duckbackpackview;
 
 import com.duckfox.duckapi.DuckPlugin;
-import com.duckfox.duckapi.nms.ItemStackProxy;
-import com.duckfox.duckapi.nms.NBTProxy;
-import com.pixelmonmod.pixelmon.util.NBTTools;
 import net.minecraft.nbt.CompressedStreamTools;
 import net.minecraft.nbt.NBTBase;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
 import org.bukkit.Bukkit;
-import org.bukkit.Material;
 import org.bukkit.OfflinePlayer;
-import org.bukkit.craftbukkit.v1_12_R1.entity.CraftItem;
 import org.bukkit.craftbukkit.v1_12_R1.inventory.CraftItemStack;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.PlayerInventory;
-import pers.tany.seekinventory.Main;
 
 import java.io.File;
 import java.io.FileInputStream;
